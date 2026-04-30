@@ -1,13 +1,13 @@
 # AI Digital Integrated Circuits Project
 
-## 📋Overview
+## Overview
 TSMC 28nm 기반에서 AI accelerator 설계를 대상으로  
 Synthesis → STA → Post-Simulation → PNR까지  
 full ASIC backend flow를 수행하며 PPA trade-off를 분석한 프로젝트.
 
 
 
-## 📋Key Contributions
+## Key Contributions
 - Hierarchical design (Multiplier → MAC → Systolic Array)
 - Frequency sweep 기반 PPA 분석 및 최적 operating point 도출
 - STA + post-synthesis simulation을 통한 timing 검증
@@ -15,7 +15,7 @@ full ASIC backend flow를 수행하며 PPA trade-off를 분석한 프로젝트.
 
 
 
-## 📋Project Breakdown
+## Project Breakdown
 ### Assignment 1 — RCA 기반 8-bit Multiplier 합성
 #### What I Did
 - Design Compiler를 이용하여 RCA 기반 8-bit multiplier 합성
@@ -111,14 +111,14 @@ full ASIC backend flow를 수행하며 PPA trade-off를 분석한 프로젝트.
 
 
 
-## 📋Key Results
+## Key Results
 - Timing closure achieved at **0.9GHz**
 - Hold slack: **-0.0001 → +0.0003 개선**
 - 16 iterations of PNR optimization
 
 
 
-## 📋Key Insights
+## Key Insights
 - Timing 문제는 logical이 아니라 **physical issue일 수 있음**
 - IR drop / routing / density가 timing에 직접 영향
 - STA와 실제 동작 간 차이를 반드시 검증해야 함

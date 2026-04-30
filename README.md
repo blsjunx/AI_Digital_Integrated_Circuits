@@ -1,6 +1,5 @@
 # AI Digital Integrated Circuits Project
 
-## Overview
 TSMC 28nm 기반에서 AI accelerator 설계를 대상으로  
 Synthesis → STA → Post-Simulation → PNR까지  
 full ASIC backend flow를 수행하며 PPA trade-off를 분석한 프로젝트.

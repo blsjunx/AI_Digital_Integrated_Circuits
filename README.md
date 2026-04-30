@@ -124,7 +124,7 @@ full ASIC backend flow를 수행하며 PPA trade-off를 분석한 프로젝트.
 
 
 
-## 📋Tech Stack
+## Tech Stack
 - Synopsys Design Compiler
 - Synopsys PrimeTime
 - Synopsys ICC2
